@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "strict": true,
+    "baseUrl": "./src",
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "skipLibCheck": false,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "outDir": "dist",
+    "types": ["node"],
+    "paths": {
+      // 🔑 ВАЖНЫЕ (ядро проекта)
+      "*": ["node_modules/*"],
+      "@/": ["*"],
+      "@models/*": ["models/*"],
+      "@common/*": ["common/*"],
+      "@constants": ["constants.ts"],
+      "@decorators/*": ["common/decorators/*"],
+      "@functions/*": ["common/functions/*"],
+      "@structures/*": ["common/structure/*"],
+      "@migrations/*": ["migrations/*"],
+      "@events/*": ["events/*"],
+      // 🛠 РАСШИРЯЕМЫЕ (можно добавлять новые)
+      "@kafka/*": ["kafka/*"],
+      "@interactions/*": ["interactions/*"],
+      "@embeds/*": ["config/embeds/*"],
+      "@components/*": ["config/components/*"],
+      "@config/*": ["config/*"]
+    },
+    "plugins": [
+      { "transform": "typescript-transform-paths" },
+      { "transform": "typescript-transform-paths", "afterDeclarations": true }
+    ]
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}

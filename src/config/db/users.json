@@ -1,0 +1,51 @@
+{
+  "920677195976941620": {
+    "username": "akakuke",
+    "muted": false,
+    "banned": false,
+    "staffLocked": false,
+    "warns": [
+      {
+        "type": "warn",
+        "reason": "ПИДАРАС",
+        "moderator": "heysh1n",
+        "date": "2025-10-03T10:32:14.492Z"
+      }
+    ],
+    "staffWarns": [
+      {
+        "type": "staff_warn",
+        "reason": "ПИДАРАС",
+        "moderator": "heysh1n",
+        "date": "2025-10-03T10:31:58.829Z"
+      }
+    ],
+    "remarks": [
+      {
+        "type": "remark",
+        "reason": "ПИДАРАС",
+        "moderator": "heysh1n",
+        "date": "2025-10-03T10:32:08.631Z"
+      }
+    ],
+    "staffLockHistory": [
+      {
+        "action": "add_lock",
+        "reason": "ПИДАРАС",
+        "moderator": "heysh1n",
+        "dateStart": "2025-10-03T10:32:30.148Z",
+        "dateEnd": ""
+      },
+      {
+        "action": "remove_lock",
+        "reason": "Заслужил",
+        "moderator": "heysh1n",
+        "dateStart": "2025-10-03T16:34:25.285Z",
+        "dateEnd": ""
+      }
+    ],
+    "banHistory": [],
+    "muteHistory": [],
+    "timeoutHistory": []
+  }
+}
