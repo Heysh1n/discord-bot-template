@@ -89,8 +89,6 @@ DEVELOPER="995737379417640961"
 MIGRATE_MIGRATIONS_PATH="./src/migrations"
 MIGRATE_TEMPLATE_PATH="./src/migrations/template.ts"
 MIGRATE_AUTOSYNC=true
-
-ENV="development"
 ```
 
 ---
@@ -203,5 +201,5 @@ This template can be extended and customized to build a **powerful multifunction
 
 ---
 ## 🔗 Contact
-- [Telegram](https://t.me/parlayanHs1n)
+- [Telegram](https://t.me/heysh1n)
 - Discord: `heysh1n`
