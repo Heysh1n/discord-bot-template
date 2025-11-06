@@ -4,6 +4,3 @@ dist
 yarn.lock
 .vscode
 .idea
-package.json
-package-lock.json
-src/configs/real/*
